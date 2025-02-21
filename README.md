@@ -12,7 +12,46 @@ For example, one seed-tracking link looks like this:
 
 ## How to Use  
 
-1. **Clone the repository** into an empty folder:  
-   ```sh
-   git clone https://github.com/YOUR_USERNAME/LinkSaver.git
-   cd LinkSaver
+### 1. Clone the Repository  
+Open a terminal and run:  
+
+```sh
+git clone https://github.com/YOUR_USERNAME/LinkSaver.git
+cd LinkSaver
+```
+
+### 2. (Optional) Set a Custom Starting URL  
+- Open `tracked_url.txt` in a text editor.  
+- Paste the URL you want to start from.  
+- If left empty, the script defaults to the Apple website.  
+
+### 3. Run the Script  
+Run the following command in the terminal:  
+
+```sh
+python webExtract.py
+```
+
+### 4. Browse as Needed  
+- The specified website (or the default Apple site) will open in Microsoft Edge.  
+- Click around as needed—the script will track URL changes.  
+
+### 5. Stop the Script  
+- Close the browser.  
+- In the terminal, press `Ctrl + C` to stop the script.  
+
+### 6. Verify the Last Tracked URL  
+To confirm that the last visited link was saved, you can:  
+- Re-run the script (`python webExtract.py`)
+OR
+- Open `tracked_url.txt` and check the updated link  
+
+## Requirements  
+
+- **Python 3** installed on your system  
+
+## Notes  
+
+- This script is designed for Microsoft Edge. If you want to use a different browser, you will need to modify the script accordingly.  
+- If `tracked_url.txt` is empty, the script will start from the Apple website by default.  
+
