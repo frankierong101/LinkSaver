@@ -1,6 +1,6 @@
 # LinkSaver
 
-LinkSaver is a simple Python script that tracks the website you're on and records any changes to the URL in a `tracked_url.txt` file.  
+LinkSaver is a simple Python script that tracks the website you're on and records any changes to the URL in a `tracked_url.txt` file. This script is designed for Microsoft Edge. If you want to use a different browser, you will need to modify the script accordingly.  
 
 ## Why I Made This  
 
@@ -16,7 +16,7 @@ For example, one seed-tracking link looks like this:
 Open a terminal and run:  
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/LinkSaver.git
+git clone https://github.com/frankierong101/LinkSaver.git
 cd LinkSaver
 ```
 
@@ -49,9 +49,3 @@ OR
 ## Requirements  
 
 - **Python 3** installed on your system  
-
-## Notes  
-
-- This script is designed for Microsoft Edge. If you want to use a different browser, you will need to modify the script accordingly.  
-- If `tracked_url.txt` is empty, the script will start from the Apple website by default.  
-
