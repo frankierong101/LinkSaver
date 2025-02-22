@@ -1,6 +1,6 @@
 # LinkSaver
 
-LinkSaver is a simple Python script that tracks the website you're on and records any changes to the URL in a `tracked_url.txt` file. This script is designed for Microsoft Edge. If you want to use a different browser, you will need to modify the script accordingly.  
+LinkSaver is a simple Python script that tracks the website you're on and records any changes to the URL in a `tracked_url.txt` file. This script is designed for Microsoft Edge so if you want to use a different browser, you will need to modify the script accordingly.  
 
 ## Why I Made This  
 
