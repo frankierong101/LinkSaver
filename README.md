@@ -22,12 +22,12 @@ git clone https://github.com/frankierong101/LinkSaver.git
 cd LinkSaver
 ```
 
-### 2. (Optional) Set a Custom Starting URL  
+### 1.5 (Optional) Set a Custom Starting URL  
 - Open `tracked_url.txt` in a text editor.  
 - Paste the URL you want to start from.  
 - If left empty, the script defaults to the Apple website.  
 
-### 3. Run the Script  
+### 2. Run the Script  
 Run the following command in the terminal:  
 
 ```sh
@@ -35,15 +35,15 @@ pip install selenium webdriver-manager
 python webExtract.py
 ```
 
-### 4. Browse as Needed  
+### 3. Browse as Needed  
 - The specified website (or the default Apple site) will open in Microsoft Edge.  
 - Click around as needed—the script will track URL changes.  
 
-### 5. Stop the Script  
+### 4. Stop the Script  
 - Close the browser.  
 - In the terminal, press `Ctrl + C` to stop the script.  
 
-### 6. Verify the Last Tracked URL was saved  
+### 5. Verify the Last Tracked URL was saved  
 - Run this:
 ```sh
 notepad tracked_url.txt
