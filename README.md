@@ -45,8 +45,11 @@ python webExtract.py
 
 ### 6. Verify the Last Tracked URL  
 To confirm that the last visited link was saved, you can:  
-- Re-run the script (`python webExtract.py`)
+- Run:
+```sh
+notepad tracked_url.txt
+```
   <br>  
   **OR**  
   <br>  
-- Open `tracked_url.txt` and check the updated link  
+ - Re-run the script (`python webExtract.py`)
