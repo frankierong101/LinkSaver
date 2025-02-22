@@ -52,4 +52,7 @@ notepad tracked_url.txt
   <br>  
   **OR**  
   <br>  
- - Re-run the script (`python webExtract.py`)
+- Re-run:
+```sh
+python webExtract.py
+```
