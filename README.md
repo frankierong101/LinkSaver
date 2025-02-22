@@ -43,17 +43,13 @@ python webExtract.py
 - Close the browser.  
 - In the terminal, press `Ctrl + C` to stop the script.  
 
-### 6. Verify the Last Tracked URL  
-To confirm that the last visited link was saved, you can:  
-- Run:
+### 6. Verify the Last Tracked URL was saved  
+- Run this:
 ```sh
 notepad tracked_url.txt
 ```
-  <br>  
-  **OR**  
-  <br>  
-  
-- Re-run:
+
+- Or rerun this:
 ```sh
 python webExtract.py
 ```
