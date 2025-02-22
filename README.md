@@ -10,6 +10,8 @@ For example, one seed-tracking link looks like this:
 [https://bc.godfat.org/?seed=2863890737&event=2025-02-22_959](https://bc.godfat.org/?seed=2863890737&event=2025-02-22_959)  
 (The seed updates whenever you click on a cat.)  
 
+---
+
 ## How to Use  
 
 ### 1. Clone the Repository  
@@ -29,6 +31,7 @@ cd LinkSaver
 Run the following command in the terminal:  
 
 ```sh
+pip install selenium webdriver-manager
 python webExtract.py
 ```
 
