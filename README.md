@@ -10,9 +10,6 @@ For example, one seed-tracking link looks like this:
 [https://bc.godfat.org/?seed=2863890737&event=2025-02-22_959](https://bc.godfat.org/?seed=2863890737&event=2025-02-22_959)  
 (The seed updates whenever you click on a cat.)  
 
-## Requirements  
-
-- **Python 3** installed on your system  
 ---
 
 ## How to Use  
